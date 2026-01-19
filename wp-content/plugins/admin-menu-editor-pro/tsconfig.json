@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"module": "es2020",
+		"target": "es2021",
+		"sourceMap": true,
+		"strict": true,
+		"moduleResolution": "node",
+		"typeRoots": ["./node_modules/@types"],
+		"newLine": "LF",
+		"allowSyntheticDefaultImports": true,
+	},
+	"exclude": []
+}

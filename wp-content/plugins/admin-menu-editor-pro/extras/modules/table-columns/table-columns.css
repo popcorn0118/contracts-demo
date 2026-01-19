@@ -1,0 +1,241 @@
+@charset "UTF-8";
+/*
+Standard WordPress admin colors.
+
+Announcement post:
+https://make.wordpress.org/core/2021/02/23/standardization-of-wp-admin-colors-in-wordpress-5-7/
+
+Source:
+https://codepen.io/ryelle/pen/WNGVEjw
+
+A "wp" prefix has been added to avoid name conflicts with other code in this plugin.
+ */
+#ame-tc-settings-page-container {
+  margin-top: 0;
+}
+#ame-tc-settings-page-container input[type=checkbox]:indeterminate:before {
+  content: "■";
+  color: #1e8cbe;
+  margin: -3px 0 0 -1px;
+  font: 400 14px/1 dashicons;
+  float: left;
+  display: inline-block;
+  vertical-align: middle;
+  width: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+@media screen and (max-width: 782px) {
+  #ame-tc-settings-page-container input[type=checkbox]:indeterminate:before {
+    height: 1.5625rem;
+    width: 1.5625rem;
+    line-height: 1.5625rem;
+    margin: -1px;
+    font-size: 18px;
+    font-family: unset;
+    font-weight: normal;
+  }
+}
+
+.ame-tc-screen {
+  position: relative;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  background: #fff;
+  margin-bottom: 20px;
+  border: 1px solid #ccd0d4;
+  max-width: 630px;
+}
+.ame-tc-screen .ws-ame-postbox-header {
+  position: relative;
+  font-size: 14px;
+  margin: 0;
+  line-height: 1.4;
+  border-bottom: 1px solid #ccd0d4;
+  border-top-right-radius: inherit;
+  border-top-left-radius: inherit;
+}
+.ame-tc-screen .ws-ame-postbox-header h3 {
+  padding: 10px 12px;
+  margin: 0;
+  font-size: 1em;
+  line-height: 1;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.ame-tc-screen .ws-ame-postbox-header .ws_tooltip_trigger .dashicons {
+  height: 14px;
+  line-height: 14px;
+}
+.ame-tc-screen .ws-ame-postbox-toggle {
+  color: #72777c;
+  background: transparent;
+  display: block;
+  font: normal 20px/1 dashicons;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 36px;
+  height: 100%;
+  padding: 0;
+}
+.ame-tc-screen .ws-ame-postbox-toggle:hover {
+  color: #23282d;
+}
+.ame-tc-screen .ws-ame-postbox-toggle:active, .ame-tc-screen .ws-ame-postbox-toggle:focus {
+  outline: none;
+  padding: 0;
+}
+.ame-tc-screen .ws-ame-postbox-toggle:before {
+  content: "\f142";
+  display: inline-block;
+  vertical-align: middle;
+}
+.ame-tc-screen .ws-ame-postbox-toggle:after {
+  display: inline-block;
+  content: "";
+  vertical-align: middle;
+  height: 100%;
+}
+.ame-tc-screen .ws-ame-postbox-content {
+  border-top: none;
+  padding: 12px;
+  border-bottom-right-radius: inherit;
+  border-bottom-left-radius: inherit;
+}
+.ame-tc-screen.ws-ame-closed-postbox .ws-ame-postbox-content {
+  display: none;
+}
+.ame-tc-screen.ws-ame-closed-postbox .ws-ame-postbox-toggle:before {
+  content: "\f140";
+}
+.ame-tc-screen.ws-ame-closed-postbox .ws-ame-postbox-header {
+  border-bottom: none;
+}
+.ame-tc-screen .ws-ame-postbox-content {
+  padding-bottom: 0;
+  padding-right: 0;
+}
+.ame-tc-screen .ws-ame-postbox-header h3 {
+  margin-right: auto;
+}
+
+.ws-ame-postbox-header {
+  display: flex;
+  flex-direction: row;
+}
+.ws-ame-postbox-header .ame-tc-delete-item {
+  padding: 0 12px;
+  align-self: stretch;
+}
+.ws-ame-postbox-header .ame-tc-delete-item .dashicons {
+  vertical-align: middle;
+}
+.ws-ame-postbox-header .ame-tc-delete-item:before {
+  display: inline-block;
+  height: 100%;
+  content: "";
+  background: cornflowerblue;
+  vertical-align: middle;
+}
+.ws-ame-postbox-header .ws-ame-postbox-toggle {
+  position: relative;
+  align-self: stretch;
+  height: unset;
+}
+
+.ame-tc-column-list {
+  margin-left: -12px;
+}
+
+.ame-tc-column {
+  display: flex;
+  flex-direction: row;
+  margin-top: -1px;
+}
+.ame-tc-column label {
+  line-height: 31px;
+  min-width: 50%;
+}
+.ame-tc-column.ui-sortable-helper {
+  background: #fff;
+  box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.3);
+}
+.ame-tc-column .ame-tc-delete-item {
+  line-height: 31px;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+.ame-tc-column .ame-tc-delete-item .dashicons {
+  vertical-align: text-bottom;
+}
+.ame-tc-column:has(.ame-tc-delete-item:hover) {
+  background: #facfd2;
+}
+
+.ame-tc-drag-handle {
+  cursor: grab;
+  min-width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ui-sortable-helper > .ame-tc-drag-handle {
+  cursor: grabbing;
+}
+
+.ame-tc-other-screen-options {
+  border-top: 1px solid #dcdcde;
+  margin-top: 1em;
+  background: #f6f7f7;
+  border-bottom-right-radius: inherit;
+  border-bottom-left-radius: inherit;
+  padding: 12px 12px 12px 30px;
+  margin-left: -12px;
+}
+.ame-tc-other-screen-options label {
+  vertical-align: baseline;
+}
+
+.ame-tc-order-settings {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.ame-tc-order-settings a.ame-tc-disabled {
+  color: #646970;
+  text-decoration: none;
+  cursor: default;
+}
+
+.ame-tc-delete-item {
+  text-decoration: none;
+  margin-left: auto;
+}
+.ame-tc-delete-item:not(:hover) {
+  color: #8c8f94;
+}
+.ame-tc-delete-item:hover, .ame-tc-delete-item:active {
+  color: #b32d2e;
+}
+
+#ame-tc-refresh-progress {
+  width: 200px;
+}
+
+.wrap .nav-tab-wrapper.ws-ame-nav-tab-list, .ws-ame-too-many-tabs.ame-condensed-tabs-enabled .nav-tab-wrapper.ws-ame-nav-tab-list {
+  margin-bottom: 0;
+}
+
+.ame-tc-top-bar-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+/*# sourceMappingURL=table-columns.css.map */

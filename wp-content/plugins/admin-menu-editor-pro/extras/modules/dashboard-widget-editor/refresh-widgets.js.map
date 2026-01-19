@@ -1,0 +1,1 @@
+{"version":3,"file":"refresh-widgets.js","sourceRoot":"","sources":["refresh-widgets.ts"],"names":[],"mappings":";AAKA,MAAM,CAAC;IACN,MAAM,MAAM,GAAG,IAAI,cAAc,CAAC,MAAM,CAAC;QACxC,KAAK,EAAE,CAAC,qBAAqB,CAAC,YAAY,CAAC;QAC3C,eAAe,EAAE,qBAAqB,CAAC,SAAS;QAChD,aAAa,EAAE,GAAG;KAClB,CAAC,CAAC;IACH,MAAM,CAAC,GAAG,EAAE,CAAC;AACd,CAAC,CAAC,CAAC"}

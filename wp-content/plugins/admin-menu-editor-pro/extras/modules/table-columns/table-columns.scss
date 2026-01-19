@@ -1,0 +1,176 @@
+@import "../../../css/boxes";
+@import "../../../css/ui-constants";
+@import "../../../css/indeterminate-checkbox";
+@import "../../../css/wp-admin-colors";
+
+$boxHorizontalPadding: 12px;
+$columnLineHeight: 31px;
+
+#ame-tc-settings-page-container {
+	margin-top: 0;
+
+	input[type=checkbox] {
+		@include ame-indeterminate-checkbox;
+	}
+}
+
+.ame-tc-screen {
+	@include ame-emulated-postbox($horizontalPadding: $boxHorizontalPadding);
+
+	max-width: 630px;
+
+	.ws-ame-postbox-content {
+		padding-bottom: 0;
+		padding-right: 0;
+	}
+
+	//Push the delete button and toggle button to the right of the header text. This isn't necessary
+	//in the default postbox layout, but in this case the header is a flex container and the toggle
+	//button is no longer absolutely positioned.
+	.ws-ame-postbox-header h3 {
+		margin-right: auto;
+	}
+}
+
+.ws-ame-postbox-header {
+	display: flex;
+	flex-direction: row;
+
+	.ame-tc-delete-item {
+		padding: 0 $boxHorizontalPadding;
+		align-self: stretch;
+
+		.dashicons {
+			vertical-align: middle;
+		}
+
+		//Hack to make the icon vertically centered in the delete button and header.
+		&:before {
+			display: inline-block;
+			height: 100%;
+			content: '';
+			background: cornflowerblue;
+			vertical-align: middle;
+		}
+	}
+
+	//Fix the alignment of the toggle button. The default styles don't quite work because
+	//the header isn't a flex container in the default postbox layout.
+	.ws-ame-postbox-toggle {
+		position: relative;
+		align-self: stretch;
+		height: unset;
+	}
+}
+
+.ame-tc-column-list {
+	//The drag handles affect how aligned the items look, even if the padding is the same
+	//on all sides. Pulling the list to the left looks better.
+	margin-left: -$boxHorizontalPadding;
+}
+
+.ame-tc-column {
+	display: flex;
+	flex-direction: row;
+
+	margin-top: -1px;
+
+	label {
+		line-height: $columnLineHeight;
+		min-width: 50%;
+	}
+
+	&.ui-sortable-helper {
+		background: #fff;
+		box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.30);
+	}
+
+	.ame-tc-delete-item {
+		line-height: $columnLineHeight;
+		padding-right: $boxHorizontalPadding;
+		padding-left: $boxHorizontalPadding;
+
+		.dashicons {
+			vertical-align: text-bottom;
+		}
+	}
+
+	//To help match up items with their delete buttons, give the item a red background
+	//when the user hovers over the delete button.
+	&:has(.ame-tc-delete-item:hover) {
+		background: wpColor(red-5);
+	}
+}
+
+$dragHandleWidth: 30px;
+.ame-tc-drag-handle {
+	cursor: grab;
+	min-width: $dragHandleWidth;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	.ui-sortable-helper > & {
+		cursor: grabbing;
+	}
+}
+
+.ame-tc-other-screen-options {
+	border-top: 1px solid wpColor(gray-5);
+	margin-top: 1em;
+	background: wpColor(gray-0);
+
+	border-bottom-right-radius: inherit;
+	border-bottom-left-radius: inherit;
+
+	padding: $boxHorizontalPadding $boxHorizontalPadding $boxHorizontalPadding #{$dragHandleWidth};
+	margin-left: -$boxHorizontalPadding;
+
+	label {
+		vertical-align: baseline;
+	}
+}
+
+.ame-tc-order-settings {
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	justify-content: space-between;
+
+	a.ame-tc-disabled {
+		color: wpColor(gray-50);
+		text-decoration: none;
+		cursor: default;
+	}
+}
+
+.ame-tc-delete-item {
+	text-decoration: none;
+	margin-left: auto;
+
+	&:not(:hover) {
+		color: wpColor(gray-30);
+	}
+
+	&:hover, &:active {
+		color: wpColor(red-60);
+	}
+}
+
+#ame-tc-refresh-progress {
+	width: 200px;
+}
+
+//No bottom margin on the navigation tab list. The sticky bar at the top provides the spacing.
+.wrap, .ws-ame-too-many-tabs.ame-condensed-tabs-enabled {
+	.nav-tab-wrapper.ws-ame-nav-tab-list {
+		margin-bottom: 0;
+	}
+}
+
+.ame-tc-top-bar-content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+}
