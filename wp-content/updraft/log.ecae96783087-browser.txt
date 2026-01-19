@@ -1,0 +1,342 @@
+0000.017 (R) [notice] Looking for db archive: file name: backup_2026-01-19-1524_goodtoloanpopcornwebscom_4e6ca7a9b47d-db.gz
+0000.017 (R) [notice] Archive is expected to be size: 275.6 KB: 好
+0000.018 (R) [notice] Looking for mu-plugins archive: file name: backup_2026-01-19-1524_goodtoloanpopcornwebscom_4e6ca7a9b47d-mu-plugins.zip
+0000.018 (R) [notice] Archive is expected to be size: 0.2 KB: 好
+0000.019 (R) [notice] Looking for themes archive: file name: backup_2026-01-19-1524_goodtoloanpopcornwebscom_4e6ca7a9b47d-themes.zip
+0000.019 (R) [notice] Archive is expected to be size: 7603 KB: 好
+0000.020 (R) [notice] Looking for uploads archive: file name: backup_2026-01-19-1524_goodtoloanpopcornwebscom_4e6ca7a9b47d-uploads.zip
+0000.020 (R) [notice] Archive is expected to be size: 1704.3 KB: 好
+0000.021 (R) [notice] Looking for others archive: file name: backup_2026-01-19-1524_goodtoloanpopcornwebscom_4e6ca7a9b47d-others.zip
+0000.022 (R) [notice] Archive is expected to be size: 6115.2 KB: 好
+0000.022 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.024 (R) [notice] Unpacking backup... (backup_2026-01-19-1524_goodtoloanpopcornwebscom_4e6ca7a9b47d-db.gz, 0.3 Mb)
+0000.025 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.057 (R) [notice] 正在啟用 [網站例行性維護] 模式...
+0000.066 (R) [notice] 備份： https://goodtoloan.popcornwebs.com
+0000.071 (R) [notice] 內容網址： https://goodtoloan.popcornwebs.com/wp-content
+0000.071 (R) [notice] 上傳路徑： https://goodtoloan.popcornwebs.com/wp-content/uploads
+0000.071 (R) [notice] Old table prefix: wpyv_
+0000.071 (R) [notice] Old ABSPATH: /home/popcornw/goodtoloan.popcornwebs.com/
+0000.071 (R) [notice] UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.071 (R) [notice] 網站資訊： multisite = 0
+0000.071 (R) [notice] 網站資訊： sql_mode = ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.072 (R) [notice] New table prefix: wh_
+0000.073 (R) [notice] Processing table (InnoDB):  wpyv_options - will restore as: wh_options
+0000.147 (R) [notice] Atomic restore: dropping original table (wp_options)
+0000.152 (R) [notice] Atomic restore: renaming new table (wh_options) to final table name (wp_options)
+0000.279 (R) [notice] Table prefix has changed: changing option table field(s) accordingly: 好
+0000.281 (R) [notice] 搜尋和取代資料表: wp_options: rows: 386
+0000.326 (R) [notice] Processing table (InnoDB):  wpyv_users - will restore as: wh_users
+0000.354 (R) [notice] Atomic restore: dropping original table (wp_users)
+0000.359 (R) [notice] Atomic restore: renaming new table (wh_users) to final table name (wp_users)
+0000.365 (R) [notice] 搜尋和取代資料表: wp_users: rows: 3
+0000.367 (R) [notice] Processing table (InnoDB):  wpyv_usermeta - will restore as: wh_usermeta
+0000.387 (R) [notice] Atomic restore: dropping original table (wp_usermeta)
+0000.403 (R) [notice] Atomic restore: renaming new table (wh_usermeta) to final table name (wp_usermeta)
+0000.411 (R) [notice] Table prefix has changed: changing usermeta table field(s) accordingly: 好
+0000.412 (R) [notice] 搜尋和取代資料表: wp_usermeta: rows: 67
+0000.413 (R) [notice] Processing table (InnoDB):  wpyv_commentmeta - will restore as: wh_commentmeta
+0000.431 (R) [notice] Atomic restore: dropping original table (wp_commentmeta)
+0000.435 (R) [notice] Atomic restore: renaming new table (wh_commentmeta) to final table name (wp_commentmeta)
+0000.443 (R) [notice] 搜尋和取代資料表: wp_commentmeta: rows: 0
+0000.443 (R) [notice] Processing table (InnoDB):  wpyv_comments - will restore as: wh_comments
+0000.473 (R) [notice] Atomic restore: dropping original table (wp_comments)
+0000.479 (R) [notice] Atomic restore: renaming new table (wh_comments) to final table name (wp_comments)
+0000.485 (R) [notice] 搜尋和取代資料表: wp_comments: rows: 0
+0000.486 (R) [notice] Processing table (InnoDB):  wpyv_links - will restore as: wh_links
+0000.500 (R) [notice] Atomic restore: dropping original table (wp_links)
+0000.512 (R) [notice] Atomic restore: renaming new table (wh_links) to final table name (wp_links)
+0000.519 (R) [notice] 搜尋和取代資料表: wp_links: rows: 0
+0000.519 (R) [notice] Processing table (InnoDB):  wpyv_postmeta - will restore as: wh_postmeta
+0000.543 (R) [notice] Atomic restore: dropping original table (wp_postmeta)
+0000.547 (R) [notice] Atomic restore: renaming new table (wh_postmeta) to final table name (wp_postmeta)
+0000.553 (R) [notice] 搜尋和取代資料表: wp_postmeta: rows: 5
+0000.556 (R) [notice] Processing table (InnoDB):  wpyv_posts - will restore as: wh_posts
+0000.594 (R) [notice] Atomic restore: dropping original table (wp_posts)
+0000.605 (R) [notice] Atomic restore: renaming new table (wh_posts) to final table name (wp_posts)
+0000.611 (R) [notice] 搜尋和取代資料表: wp_posts: rows: 44
+0000.614 (R) [notice] Processing table (InnoDB):  wpyv_term_relationships - will restore as: wh_term_relationships
+0000.632 (R) [notice] Atomic restore: dropping original table (wp_term_relationships)
+0000.646 (R) [notice] Atomic restore: renaming new table (wh_term_relationships) to final table name (wp_term_relationships)
+0000.650 (R) [notice] Skipping this table: data in this table (wp_term_relationships) should not be search/replaced
+0000.650 (R) [notice] Processing table (InnoDB):  wpyv_term_taxonomy - will restore as: wh_term_taxonomy
+0000.670 (R) [notice] Atomic restore: dropping original table (wp_term_taxonomy)
+0000.674 (R) [notice] Atomic restore: renaming new table (wh_term_taxonomy) to final table name (wp_term_taxonomy)
+0000.681 (R) [notice] 搜尋和取代資料表: wp_term_taxonomy: rows: 5
+0000.682 (R) [notice] Processing table (InnoDB):  wpyv_termmeta - will restore as: wh_termmeta
+0000.699 (R) [notice] Atomic restore: dropping original table (wp_termmeta)
+0000.704 (R) [notice] Atomic restore: renaming new table (wh_termmeta) to final table name (wp_termmeta)
+0000.711 (R) [notice] 搜尋和取代資料表: wp_termmeta: rows: 0
+0000.711 (R) [notice] Processing table (InnoDB):  wpyv_terms - will restore as: wh_terms
+0000.731 (R) [notice] Atomic restore: dropping original table (wp_terms)
+0000.756 (R) [notice] Atomic restore: renaming new table (wh_terms) to final table name (wp_terms)
+0000.762 (R) [notice] 搜尋和取代資料表: wp_terms: rows: 5
+0000.763 (R) [notice] Processing table (InnoDB):  wpyv_actionscheduler_actions - will restore as: wh_actionscheduler_actions
+0000.814 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_actions)
+0000.825 (R) [notice] Atomic restore: renaming new table (wh_actionscheduler_actions) to final table name (wp_actionscheduler_actions)
+0000.831 (R) [notice] 搜尋和取代資料表: wp_actionscheduler_actions: rows: 29
+0000.833 (R) [notice] Processing table (InnoDB):  wpyv_actionscheduler_claims - will restore as: wh_actionscheduler_claims
+0000.847 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_claims)
+0000.852 (R) [notice] Atomic restore: renaming new table (wh_actionscheduler_claims) to final table name (wp_actionscheduler_claims)
+0000.858 (R) [notice] 搜尋和取代資料表: wp_actionscheduler_claims: rows: 0
+0000.858 (R) [notice] Processing table (InnoDB):  wpyv_actionscheduler_groups - will restore as: wh_actionscheduler_groups
+0000.874 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_groups)
+0000.887 (R) [notice] Database queries processed: 50 in 0.86 seconds
+0000.888 (R) [notice] Atomic restore: renaming new table (wh_actionscheduler_groups) to final table name (wp_actionscheduler_groups)
+0000.894 (R) [notice] 搜尋和取代資料表: wp_actionscheduler_groups: rows: 4
+0000.894 (R) [notice] Processing table (InnoDB):  wpyv_actionscheduler_logs - will restore as: wh_actionscheduler_logs
+0000.914 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_logs)
+0000.919 (R) [notice] Atomic restore: renaming new table (wh_actionscheduler_logs) to final table name (wp_actionscheduler_logs)
+0000.924 (R) [notice] 搜尋和取代資料表: wp_actionscheduler_logs: rows: 68
+0000.926 (R) [notice] Processing table (InnoDB):  wpyv_aioseo_ai_insights_keyword_reports - will restore as: wh_aioseo_ai_insights_keyword_reports
+0000.948 (R) [notice] Atomic restore: dropping original table (wp_aioseo_ai_insights_keyword_reports)
+0000.953 (R) [notice] Atomic restore: renaming new table (wh_aioseo_ai_insights_keyword_reports) to final table name (wp_aioseo_ai_insights_keyword_reports)
+0000.959 (R) [notice] 搜尋和取代資料表: wp_aioseo_ai_insights_keyword_reports: rows: 0
+0000.960 (R) [notice] Processing table (InnoDB):  wpyv_aioseo_cache - will restore as: wh_aioseo_cache
+0000.977 (R) [notice] Atomic restore: dropping original table (wp_aioseo_cache)
+0000.982 (R) [notice] Atomic restore: renaming new table (wh_aioseo_cache) to final table name (wp_aioseo_cache)
+0000.988 (R) [notice] 搜尋和取代資料表: wp_aioseo_cache: rows: 0
+0000.988 (R) [notice] Processing table (InnoDB):  wpyv_aioseo_crawl_cleanup_blocked_args - will restore as: wh_aioseo_crawl_cleanup_blocked_args
+0001.005 (R) [notice] Atomic restore: dropping original table (wp_aioseo_crawl_cleanup_blocked_args)
+0001.010 (R) [notice] Atomic restore: renaming new table (wh_aioseo_crawl_cleanup_blocked_args) to final table name (wp_aioseo_crawl_cleanup_blocked_args)
+0001.017 (R) [notice] 搜尋和取代資料表: wp_aioseo_crawl_cleanup_blocked_args: rows: 0
+0001.017 (R) [notice] Processing table (InnoDB):  wpyv_aioseo_crawl_cleanup_logs - will restore as: wh_aioseo_crawl_cleanup_logs
+0001.030 (R) [notice] Atomic restore: dropping original table (wp_aioseo_crawl_cleanup_logs)
+0001.035 (R) [notice] Atomic restore: renaming new table (wh_aioseo_crawl_cleanup_logs) to final table name (wp_aioseo_crawl_cleanup_logs)
+0001.042 (R) [notice] 搜尋和取代資料表: wp_aioseo_crawl_cleanup_logs: rows: 0
+0001.043 (R) [notice] Processing table (InnoDB):  wpyv_aioseo_notifications - will restore as: wh_aioseo_notifications
+0001.070 (R) [notice] Atomic restore: dropping original table (wp_aioseo_notifications)
+0001.075 (R) [notice] Atomic restore: renaming new table (wh_aioseo_notifications) to final table name (wp_aioseo_notifications)
+0001.082 (R) [notice] 搜尋和取代資料表: wp_aioseo_notifications: rows: 1
+0001.082 (R) [notice] Processing table (InnoDB):  wpyv_aioseo_posts - will restore as: wh_aioseo_posts
+0001.103 (R) [notice] Atomic restore: dropping original table (wp_aioseo_posts)
+0001.116 (R) [notice] Atomic restore: renaming new table (wh_aioseo_posts) to final table name (wp_aioseo_posts)
+0001.122 (R) [notice] 搜尋和取代資料表: wp_aioseo_posts: rows: 2
+0001.123 (R) [notice] Processing table (InnoDB):  wpyv_aioseo_seo_analyzer_results - will restore as: wh_aioseo_seo_analyzer_results
+0001.138 (R) [notice] Atomic restore: dropping original table (wp_aioseo_seo_analyzer_results)
+0001.143 (R) [notice] Atomic restore: renaming new table (wh_aioseo_seo_analyzer_results) to final table name (wp_aioseo_seo_analyzer_results)
+0001.150 (R) [notice] 搜尋和取代資料表: wp_aioseo_seo_analyzer_results: rows: 0
+0001.150 (R) [notice] Processing table (InnoDB):  wpyv_aioseo_writing_assistant_keywords - will restore as: wh_aioseo_writing_assistant_keywords
+0001.167 (R) [notice] Atomic restore: dropping original table (wp_aioseo_writing_assistant_keywords)
+0001.171 (R) [notice] Atomic restore: renaming new table (wh_aioseo_writing_assistant_keywords) to final table name (wp_aioseo_writing_assistant_keywords)
+0001.178 (R) [notice] 搜尋和取代資料表: wp_aioseo_writing_assistant_keywords: rows: 0
+0001.179 (R) [notice] Processing table (InnoDB):  wpyv_aioseo_writing_assistant_posts - will restore as: wh_aioseo_writing_assistant_posts
+0001.195 (R) [notice] Atomic restore: dropping original table (wp_aioseo_writing_assistant_posts)
+0001.200 (R) [notice] Atomic restore: renaming new table (wh_aioseo_writing_assistant_posts) to final table name (wp_aioseo_writing_assistant_posts)
+0001.207 (R) [notice] 搜尋和取代資料表: wp_aioseo_writing_assistant_posts: rows: 0
+0001.207 (R) [notice] Processing table (InnoDB):  wpyv_monsterinsights_cache - will restore as: wh_monsterinsights_cache
+0001.228 (R) [notice] Atomic restore: dropping original table (wp_monsterinsights_cache)
+0001.233 (R) [notice] Atomic restore: renaming new table (wh_monsterinsights_cache) to final table name (wp_monsterinsights_cache)
+0001.239 (R) [notice] 搜尋和取代資料表: wp_monsterinsights_cache: rows: 0
+0001.240 (R) [notice] Processing table (InnoDB):  wpyv_wfauditevents - will restore as: wh_wfauditevents
+0001.251 (R) [notice] Atomic restore: dropping original table (wp_wfauditevents)
+0001.255 (R) [notice] Atomic restore: renaming new table (wh_wfauditevents) to final table name (wp_wfauditevents)
+0001.262 (R) [notice] 搜尋和取代資料表: wp_wfauditevents: rows: 0
+0001.262 (R) [notice] Processing table (InnoDB):  wpyv_wfblockediplog - will restore as: wh_wfblockediplog
+0001.274 (R) [notice] Atomic restore: dropping original table (wp_wfblockediplog)
+0001.279 (R) [notice] Atomic restore: renaming new table (wh_wfblockediplog) to final table name (wp_wfblockediplog)
+0001.284 (R) [notice] Skipping this table: data in this table (wp_wfblockediplog) should not be search/replaced
+0001.284 (R) [notice] Processing table (InnoDB):  wpyv_wfblocks7 - will restore as: wh_wfblocks7
+0001.304 (R) [notice] Atomic restore: dropping original table (wp_wfblocks7)
+0001.310 (R) [notice] Atomic restore: renaming new table (wh_wfblocks7) to final table name (wp_wfblocks7)
+0001.317 (R) [notice] 搜尋和取代資料表: wp_wfblocks7: rows: 0
+0001.317 (R) [notice] Processing table (InnoDB):  wpyv_wfconfig - will restore as: wh_wfconfig
+0001.330 (R) [notice] Atomic restore: dropping original table (wp_wfconfig)
+0001.369 (R) [notice] Atomic restore: renaming new table (wh_wfconfig) to final table name (wp_wfconfig)
+0001.375 (R) [notice] 搜尋和取代資料表: wp_wfconfig: rows: 233
+0001.381 (R) [notice] Processing table (InnoDB):  wpyv_wfcrawlers - will restore as: wh_wfcrawlers
+0001.395 (R) [notice] Atomic restore: dropping original table (wp_wfcrawlers)
+0001.400 (R) [notice] Atomic restore: renaming new table (wh_wfcrawlers) to final table name (wp_wfcrawlers)
+0001.409 (R) [notice] 搜尋和取代資料表: wp_wfcrawlers: rows: 0
+0001.409 (R) [notice] Processing table (InnoDB):  wpyv_wffilechanges - will restore as: wh_wffilechanges
+0001.423 (R) [notice] Atomic restore: dropping original table (wp_wffilechanges)
+0001.429 (R) [notice] Atomic restore: renaming new table (wh_wffilechanges) to final table name (wp_wffilechanges)
+0001.436 (R) [notice] 搜尋和取代資料表: wp_wffilechanges: rows: 0
+0001.437 (R) [notice] Processing table (InnoDB):  wpyv_wffilemods - will restore as: wh_wffilemods
+0001.448 (R) [notice] Atomic restore: dropping original table (wp_wffilemods)
+0001.454 (R) [notice] Atomic restore: renaming new table (wh_wffilemods) to final table name (wp_wffilemods)
+0001.460 (R) [notice] Skipping this table: data in this table (wp_wffilemods) should not be search/replaced
+0001.460 (R) [notice] Processing table (InnoDB):  wpyv_wfhits - will restore as: wh_wfhits
+0001.487 (R) [notice] Atomic restore: dropping original table (wp_wfhits)
+0001.492 (R) [notice] Atomic restore: renaming new table (wh_wfhits) to final table name (wp_wfhits)
+0001.497 (R) [notice] Skipping this table: data in this table (wp_wfhits) should not be search/replaced
+0001.497 (R) [notice] Processing table (InnoDB):  wpyv_wfhoover - will restore as: wh_wfhoover
+0001.512 (R) [notice] Atomic restore: dropping original table (wp_wfhoover)
+0001.516 (R) [notice] Atomic restore: renaming new table (wh_wfhoover) to final table name (wp_wfhoover)
+0001.523 (R) [notice] 搜尋和取代資料表: wp_wfhoover: rows: 0
+0001.523 (R) [notice] Processing table (InnoDB):  wpyv_wfissues - will restore as: wh_wfissues
+0001.549 (R) [notice] Atomic restore: dropping original table (wp_wfissues)
+0001.554 (R) [notice] Atomic restore: renaming new table (wh_wfissues) to final table name (wp_wfissues)
+0001.561 (R) [notice] 搜尋和取代資料表: wp_wfissues: rows: 0
+0001.561 (R) [notice] Processing table (InnoDB):  wpyv_wfknownfilelist - will restore as: wh_wfknownfilelist
+0001.571 (R) [notice] Atomic restore: dropping original table (wp_wfknownfilelist)
+0001.576 (R) [notice] Atomic restore: renaming new table (wh_wfknownfilelist) to final table name (wp_wfknownfilelist)
+0001.582 (R) [notice] 搜尋和取代資料表: wp_wfknownfilelist: rows: 0
+0001.582 (R) [notice] Processing table (InnoDB):  wpyv_wflivetraffichuman - will restore as: wh_wflivetraffichuman
+0001.598 (R) [notice] Atomic restore: dropping original table (wp_wflivetraffichuman)
+0001.602 (R) [notice] Database queries processed: 100 in 1.57 seconds
+0001.602 (R) [notice] Atomic restore: renaming new table (wh_wflivetraffichuman) to final table name (wp_wflivetraffichuman)
+0001.609 (R) [notice] 搜尋和取代資料表: wp_wflivetraffichuman: rows: 0
+0001.609 (R) [notice] Processing table (InnoDB):  wpyv_wflocs - will restore as: wh_wflocs
+0001.620 (R) [notice] Atomic restore: dropping original table (wp_wflocs)
+0001.624 (R) [notice] Atomic restore: renaming new table (wh_wflocs) to final table name (wp_wflocs)
+0001.631 (R) [notice] 搜尋和取代資料表: wp_wflocs: rows: 0
+0001.631 (R) [notice] Processing table (InnoDB):  wpyv_wflogins - will restore as: wh_wflogins
+0001.650 (R) [notice] Atomic restore: dropping original table (wp_wflogins)
+0001.654 (R) [notice] Atomic restore: renaming new table (wh_wflogins) to final table name (wp_wflogins)
+0001.661 (R) [notice] 搜尋和取代資料表: wp_wflogins: rows: 0
+0001.661 (R) [notice] Processing table (InnoDB):  wpyv_wfls_2fa_secrets - will restore as: wh_wfls_2fa_secrets
+0001.674 (R) [notice] Atomic restore: dropping original table (wp_wfls_2fa_secrets)
+0001.679 (R) [notice] Atomic restore: renaming new table (wh_wfls_2fa_secrets) to final table name (wp_wfls_2fa_secrets)
+0001.685 (R) [notice] 搜尋和取代資料表: wp_wfls_2fa_secrets: rows: 0
+0001.686 (R) [notice] Processing table (MEMORY):  wpyv_wfls_role_counts - will restore as: wh_wfls_role_counts
+0001.688 (R) [notice] Atomic restore: dropping original table (wp_wfls_role_counts)
+0001.688 (R) [notice] Atomic restore: renaming new table (wh_wfls_role_counts) to final table name (wp_wfls_role_counts)
+0001.689 (R) [notice] 搜尋和取代資料表: wp_wfls_role_counts: rows: 0
+0001.689 (R) [notice] Processing table (InnoDB):  wpyv_wfls_settings - will restore as: wh_wfls_settings
+0001.702 (R) [notice] Atomic restore: dropping original table (wp_wfls_settings)
+0001.713 (R) [notice] Atomic restore: renaming new table (wh_wfls_settings) to final table name (wp_wfls_settings)
+0001.718 (R) [notice] 搜尋和取代資料表: wp_wfls_settings: rows: 27
+0001.719 (R) [notice] Processing table (InnoDB):  wpyv_wfnotifications - will restore as: wh_wfnotifications
+0001.729 (R) [notice] Atomic restore: dropping original table (wp_wfnotifications)
+0001.734 (R) [notice] Atomic restore: renaming new table (wh_wfnotifications) to final table name (wp_wfnotifications)
+0001.740 (R) [notice] 搜尋和取代資料表: wp_wfnotifications: rows: 0
+0001.740 (R) [notice] Processing table (InnoDB):  wpyv_wfpendingissues - will restore as: wh_wfpendingissues
+0001.765 (R) [notice] Atomic restore: dropping original table (wp_wfpendingissues)
+0001.770 (R) [notice] Atomic restore: renaming new table (wh_wfpendingissues) to final table name (wp_wfpendingissues)
+0001.778 (R) [notice] 搜尋和取代資料表: wp_wfpendingissues: rows: 0
+0001.778 (R) [notice] Processing table (InnoDB):  wpyv_wfreversecache - will restore as: wh_wfreversecache
+0001.789 (R) [notice] Atomic restore: dropping original table (wp_wfreversecache)
+0001.794 (R) [notice] Atomic restore: renaming new table (wh_wfreversecache) to final table name (wp_wfreversecache)
+0001.801 (R) [notice] 搜尋和取代資料表: wp_wfreversecache: rows: 0
+0001.802 (R) [notice] Processing table (InnoDB):  wpyv_wfsecurityevents - will restore as: wh_wfsecurityevents
+0001.812 (R) [notice] Atomic restore: dropping original table (wp_wfsecurityevents)
+0001.817 (R) [notice] Atomic restore: renaming new table (wh_wfsecurityevents) to final table name (wp_wfsecurityevents)
+0001.823 (R) [notice] 搜尋和取代資料表: wp_wfsecurityevents: rows: 0
+0001.823 (R) [notice] Processing table (InnoDB):  wpyv_wfsnipcache - will restore as: wh_wfsnipcache
+0001.844 (R) [notice] Atomic restore: dropping original table (wp_wfsnipcache)
+0001.849 (R) [notice] Atomic restore: renaming new table (wh_wfsnipcache) to final table name (wp_wfsnipcache)
+0001.855 (R) [notice] 搜尋和取代資料表: wp_wfsnipcache: rows: 0
+0001.855 (R) [notice] Processing table (InnoDB):  wpyv_wfstatus - will restore as: wh_wfstatus
+0001.873 (R) [notice] Atomic restore: dropping original table (wp_wfstatus)
+0001.878 (R) [notice] Atomic restore: renaming new table (wh_wfstatus) to final table name (wp_wfstatus)
+0001.884 (R) [notice] 搜尋和取代資料表: wp_wfstatus: rows: 0
+0001.884 (R) [notice] Processing table (InnoDB):  wpyv_wftrafficrates - will restore as: wh_wftrafficrates
+0001.896 (R) [notice] Atomic restore: dropping original table (wp_wftrafficrates)
+0001.901 (R) [notice] Atomic restore: renaming new table (wh_wftrafficrates) to final table name (wp_wftrafficrates)
+0001.908 (R) [notice] 搜尋和取代資料表: wp_wftrafficrates: rows: 0
+0001.908 (R) [notice] Processing table (InnoDB):  wpyv_wfwaffailures - will restore as: wh_wfwaffailures
+0001.919 (R) [notice] Atomic restore: dropping original table (wp_wfwaffailures)
+0001.923 (R) [notice] Atomic restore: renaming new table (wh_wfwaffailures) to final table name (wp_wfwaffailures)
+0001.929 (R) [notice] 搜尋和取代資料表: wp_wfwaffailures: rows: 0
+0001.930 (R) [notice] Processing table (InnoDB):  wpyv_wpforms_logs - will restore as: wh_wpforms_logs
+0001.940 (R) [notice] Atomic restore: dropping original table (wp_wpforms_logs)
+0001.944 (R) [notice] Atomic restore: renaming new table (wh_wpforms_logs) to final table name (wp_wpforms_logs)
+0001.951 (R) [notice] 搜尋和取代資料表: wp_wpforms_logs: rows: 0
+0001.951 (R) [notice] Processing table (InnoDB):  wpyv_wpforms_payment_meta - will restore as: wh_wpforms_payment_meta
+0001.972 (R) [notice] Atomic restore: dropping original table (wp_wpforms_payment_meta)
+0001.977 (R) [notice] Atomic restore: renaming new table (wh_wpforms_payment_meta) to final table name (wp_wpforms_payment_meta)
+0001.985 (R) [notice] 搜尋和取代資料表: wp_wpforms_payment_meta: rows: 0
+0001.985 (R) [notice] Processing table (InnoDB):  wpyv_wpforms_payments - will restore as: wh_wpforms_payments
+0002.029 (R) [notice] Atomic restore: dropping original table (wp_wpforms_payments)
+0002.034 (R) [notice] Atomic restore: renaming new table (wh_wpforms_payments) to final table name (wp_wpforms_payments)
+0002.041 (R) [notice] 搜尋和取代資料表: wp_wpforms_payments: rows: 0
+0002.041 (R) [notice] Processing table (InnoDB):  wpyv_wpforms_tasks_meta - will restore as: wh_wpforms_tasks_meta
+0002.054 (R) [notice] 正在停用 [網站例行性維護] 模式...
+0002.054 (R) [notice] Atomic restore: dropping original table (wp_wpforms_tasks_meta)
+0002.067 (R) [notice] Atomic restore: renaming new table (wh_wpforms_tasks_meta) to final table name (wp_wpforms_tasks_meta)
+0002.073 (R) [notice] 搜尋和取代資料表: wp_wpforms_tasks_meta: rows: 2
+0002.073 (R) [notice] Finished: lines processed: 138 in 2.05 seconds
+0002.074 (R) [notice] 清理無用的檔案...
+0002.074 (R) [notice] Database search and replace: replace https://goodtoloan.popcornwebs.com in backup dump with http://localhost:8888
+0002.074 (R) [notice] Database search and replace: replace http://www.goodtoloan.popcornwebs.com in backup dump with http://localhost:8888
+0002.075 (R) [notice] Database search and replace: replace http://goodtoloan.popcornwebs.com in backup dump with http://localhost:8888
+0002.075 (R) [notice] Database search and replace: replace https://www.goodtoloan.popcornwebs.com in backup dump with http://localhost:8888
+0002.075 (R) [notice] Database search and replace: replace /home/popcornw/goodtoloan.popcornwebs.com in backup dump with D:\popcorn\合約測試站\contracts-demo
+0002.076 (R) [notice] 搜尋和取代資料表: wp_actionscheduler_actions: 已經完成
+0002.076 (R) [notice] 搜尋和取代資料表: wp_actionscheduler_claims: 已經完成
+0002.076 (R) [notice] 搜尋和取代資料表: wp_actionscheduler_groups: 已經完成
+0002.076 (R) [notice] 搜尋和取代資料表: wp_actionscheduler_logs: 已經完成
+0002.076 (R) [notice] 搜尋和取代資料表: wp_aioseo_ai_insights_keyword_reports: 已經完成
+0002.076 (R) [notice] 搜尋和取代資料表: wp_aioseo_cache: 已經完成
+0002.077 (R) [notice] 搜尋和取代資料表: wp_aioseo_crawl_cleanup_blocked_args: 已經完成
+0002.077 (R) [notice] 搜尋和取代資料表: wp_aioseo_crawl_cleanup_logs: 已經完成
+0002.077 (R) [notice] 搜尋和取代資料表: wp_aioseo_notifications: 已經完成
+0002.077 (R) [notice] 搜尋和取代資料表: wp_aioseo_posts: 已經完成
+0002.077 (R) [notice] 搜尋和取代資料表: wp_aioseo_seo_analyzer_results: 已經完成
+0002.077 (R) [notice] 搜尋和取代資料表: wp_aioseo_writing_assistant_keywords: 已經完成
+0002.077 (R) [notice] 搜尋和取代資料表: wp_aioseo_writing_assistant_posts: 已經完成
+0002.077 (R) [notice] 搜尋和取代資料表: wp_commentmeta: 已經完成
+0002.077 (R) [notice] 搜尋和取代資料表: wp_comments: 已經完成
+0002.077 (R) [notice] 搜尋和取代資料表: wp_links: 已經完成
+0002.077 (R) [notice] 搜尋和取代資料表: wp_monsterinsights_cache: 已經完成
+0002.077 (R) [notice] 搜尋和取代資料表: wp_options: 已經完成
+0002.077 (R) [notice] 搜尋和取代資料表: wp_postmeta: 已經完成
+0002.077 (R) [notice] 搜尋和取代資料表: wp_posts: 已經完成
+0002.077 (R) [notice] 搜尋和取代資料表: wp_term_relationships: 已經完成
+0002.078 (R) [notice] 搜尋和取代資料表: wp_term_taxonomy: 已經完成
+0002.078 (R) [notice] 搜尋和取代資料表: wp_termmeta: 已經完成
+0002.078 (R) [notice] 搜尋和取代資料表: wp_terms: 已經完成
+0002.078 (R) [notice] 搜尋和取代資料表: wp_usermeta: 已經完成
+0002.078 (R) [notice] 搜尋和取代資料表: wp_users: 已經完成
+0002.078 (R) [notice] 搜尋和取代資料表: wp_wfauditevents: 已經完成
+0002.078 (R) [notice] 搜尋和取代資料表: wp_wfblockediplog: 已經完成
+0002.078 (R) [notice] 搜尋和取代資料表: wp_wfblocks7: 已經完成
+0002.078 (R) [notice] 搜尋和取代資料表: wp_wfconfig: 已經完成
+0002.078 (R) [notice] 搜尋和取代資料表: wp_wfcrawlers: 已經完成
+0002.078 (R) [notice] 搜尋和取代資料表: wp_wffilechanges: 已經完成
+0002.078 (R) [notice] 搜尋和取代資料表: wp_wffilemods: 已經完成
+0002.078 (R) [notice] 搜尋和取代資料表: wp_wfhits: 已經完成
+0002.078 (R) [notice] 搜尋和取代資料表: wp_wfhoover: 已經完成
+0002.078 (R) [notice] 搜尋和取代資料表: wp_wfissues: 已經完成
+0002.079 (R) [notice] 搜尋和取代資料表: wp_wfknownfilelist: 已經完成
+0002.079 (R) [notice] 搜尋和取代資料表: wp_wflivetraffichuman: 已經完成
+0002.079 (R) [notice] 搜尋和取代資料表: wp_wflocs: 已經完成
+0002.079 (R) [notice] 搜尋和取代資料表: wp_wflogins: 已經完成
+0002.079 (R) [notice] 搜尋和取代資料表: wp_wfls_2fa_secrets: 已經完成
+0002.079 (R) [notice] 搜尋和取代資料表: wp_wfls_role_counts: 已經完成
+0002.079 (R) [notice] 搜尋和取代資料表: wp_wfls_settings: 已經完成
+0002.079 (R) [notice] 搜尋和取代資料表: wp_wfnotifications: 已經完成
+0002.079 (R) [notice] 搜尋和取代資料表: wp_wfpendingissues: 已經完成
+0002.079 (R) [notice] 搜尋和取代資料表: wp_wfreversecache: 已經完成
+0002.079 (R) [notice] 搜尋和取代資料表: wp_wfsecurityevents: 已經完成
+0002.079 (R) [notice] 搜尋和取代資料表: wp_wfsnipcache: 已經完成
+0002.079 (R) [notice] 搜尋和取代資料表: wp_wfstatus: 已經完成
+0002.079 (R) [notice] 搜尋和取代資料表: wp_wftrafficrates: 已經完成
+0002.079 (R) [notice] 搜尋和取代資料表: wp_wfwaffailures: 已經完成
+0002.079 (R) [notice] 搜尋和取代資料表: wp_wpforms_logs: 已經完成
+0002.079 (R) [notice] 搜尋和取代資料表: wp_wpforms_payment_meta: 已經完成
+0002.080 (R) [notice] 搜尋和取代資料表: wp_wpforms_payments: 已經完成
+0002.080 (R) [notice] 搜尋和取代資料表: wp_wpforms_tasks_meta: 已經完成
+0002.081 (R) [notice] 搜尋和取代資料表: wp_litespeed_avatar: rows: 7
+0002.084 (R) [notice] 搜尋和取代資料表: wp_litespeed_crawler: rows: 0
+0002.085 (R) [notice] 搜尋和取代資料表: wp_litespeed_crawler_blacklist: rows: 0
+0002.087 (R) [notice] 搜尋和取代資料表: wp_litespeed_url: rows: 2
+0002.088 (R) [notice] 搜尋和取代資料表: wp_litespeed_url_file: rows: 9
+0002.090 (R) [notice] 搜尋和取代資料表: wp_wpvivid_scan_result: rows: 6
+0002.093 (R) [notice] 搜尋和取代資料表: wp_wpvivid_unused_uploads_files: rows: 75
+0002.095 (R) [notice] Tables examined: 58
+0002.095 (R) [notice] Rows examined: 980
+0002.095 (R) [notice] Changes made: 18
+0002.095 (R) [notice] SQL update commands run: 18
+0002.095 (R) [notice] 錯誤： 0
+0002.095 (R) [notice] Time taken (seconds): 0.175
+0002.103 (R) [notice] Unpacking backup... (backup_2026-01-19-1524_goodtoloanpopcornwebscom_4e6ca7a9b47d-mu-plugins.zip, 0 MB)
+0002.104 (R) [notice] Moving old data out of the way...
+0002.105 (R) [notice] Moving unpacked backup into place...
+0002.105 (R) [notice] 清理無用的檔案...
+0002.108 (R) [notice] Unpacking backup... (backup_2026-01-19-1524_goodtoloanpopcornwebscom_4e6ca7a9b47d-themes.zip, 7.4 MB)
+0002.366 (R) [notice] Unzip progress: 1002 out of 1068 files (21.8 MB, themes/astra/assets/css/minified/menu-animation.min.css)
+0002.385 (R) [notice] Unzip progress: 1068 out of 1068 files (23.2 MB, themes/astra-child/screenshot.jpg)
+0002.386 (R) [notice] Moving old data out of the way...
+0002.452 (R) [notice] Moving unpacked backup into place...
+0002.513 (R) [notice] 清理無用的檔案...
+0002.517 (R) [notice] Unpacking backup... (backup_2026-01-19-1524_goodtoloanpopcornwebscom_4e6ca7a9b47d-uploads.zip, 1.7 MB)
+0002.540 (R) [notice] Unzip progress: 94 out of 94 files (2 MB, uploads/2026/01/seal-2025.png)
+0002.541 (R) [notice] Moving old data out of the way...
+0002.555 (R) [notice] Moving unpacked backup into place...
+0002.560 (R) [notice] 清理無用的檔案...
+0002.563 (R) [notice] Unpacking backup... (backup_2026-01-19-1524_goodtoloanpopcornwebscom_4e6ca7a9b47d-others.zip, 6 MB)
+0002.653 (R) [notice] Unzip progress: 123 out of 123 files (13.7 MB, settings/a2opt-cache/.htaccess)
+0002.657 (R) [notice] 清理無用的檔案...
+0002.672 (R) [notice] Restore successful!

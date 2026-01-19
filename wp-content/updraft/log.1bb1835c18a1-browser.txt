@@ -1,0 +1,8 @@
+0000.017 (R) [notice] Looking for db archive: file name: backup_2026-01-19-1525_localhost_89a471de301c-db.gz
+0000.017 (R) [notice] Archive is expected to be size: 311.1 KB: 好
+0000.018 (R) [notice] Looking for mu-plugins archive: file name: backup_2026-01-19-1525_localhost_89a471de301c-mu-plugins.zip
+0000.019 (R) [notice] Archive is expected to be size: 2.5 KB: 好
+0000.019 (R) [notice] Looking for themes archive: file name: backup_2026-01-19-1525_localhost_89a471de301c-themes.zip
+0000.019 (R) [notice] Archive is expected to be size: 20419.2 KB: 好
+0000.021 (R) [warning] 錯誤: Existing unremoved folders from a previous restore exist (please use the "Delete old folders" button to delete them before trying again): D:\popcorn\合約測試站\contracts-demo/wp-content/updraft/themes-old
+0000.023 (R) [notice] Restore failed...

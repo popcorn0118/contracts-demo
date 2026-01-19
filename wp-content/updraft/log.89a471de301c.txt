@@ -467,3 +467,10 @@
 0008.015 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
 0008.017 (0) No email will/can be sent - the user has not configured an email address.
 0008.018 (0) The backup succeeded and is now complete
+0000.000 (1) Opened log file at time: Mon, 19 Jan 2026 07:51:03 +0000 on http://localhost:8888
+0000.001 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.9 WP: 6.9 PHP: 8.0.1 (apache2handler, Windows NT DESKTOP-VILVA98 6.2 build 9200 (Windows 8 Professional Edition) AMD64) MySQL: 5.7.24 (max packet size=67108864) WPLANG: zh_TW Server: Apache/2.4.33 (Win64) OpenSSL/1.0.2u mod_fcgid/2.3.9 PHP/8.0.1 safe_mode: 0 max_execution_time: 900 memory_limit: 2G (used: 68.7M | 8M) multisite: N openssl: OpenSSL 1.1.1i  8 Dec 2020 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.002 (1) Free space on disk containing Updraft's temporary directory: 141731.5 MB
+0000.003 (1) Requesting backup semaphore lock (udp_backupjob_89a471de301c)
+0000.004 (1) [Debug] Lock option (updraft_lock_udp_backupjob_89a471de301c, wp_options) was created in the database
+0000.005 (1) [Info] Lock (updraft_lock_udp_backupjob_89a471de301c, wp_options) acquired after initialising the database
+0000.005 (1) This backup task (89a471de301c) is either complete or began over 2 days ago: ending (1768809063.1556, ) (existing jobdata keys: )

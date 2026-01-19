@@ -1,0 +1,16 @@
+
+# BEGIN WPForms
+# 在含有 BEGIN WPForms 及 END WPForms 標記的這兩行間的指示詞內容為動態產生，
+# 且應僅有 WordPress 篩選器能進行修改。對這兩行間任何指示詞內容的變更，
+# 都會遭到系統覆寫。
+# Disable access for any file in the cache dir.
+# Apache 2.2
+<IfModule !authz_core_module>
+	Deny from all
+</IfModule>
+
+# Apache 2.4+
+<IfModule authz_core_module>
+	Require all denied
+</IfModule>
+# END WPForms
